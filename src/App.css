@@ -66,3 +66,38 @@
 .nav-link:hover {
   color: #5378c3;
 }
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  border: 1px solid #ddd; 
+}
+
+
+th {
+  text-align: center !important;
+  border: 1px solid #ddd; 
+  background-color: #005b8f; 
+  color: white; 
+ 
+}
+
+.encabe {
+  text-align: center !important;
+  border: 1px solid #ddd; 
+  background-color: #17a2b8; 
+  color: white; 
+ 
+}
+
+
+td {
+  border: 1px solid #ddd; 
+}
+
+th, td {
+  padding: 8px;
+  text-align: left; 
+}
