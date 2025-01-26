@@ -8,9 +8,11 @@ const useForm = (initialState = {}) => {
             [name]: value,
         });
     };
-    const resetForm = () => {
-        setFormData(initialState);
+
+    const resetForm = (newData = initialState) => {
+        setFormData(newData);
     };
+    
     return {
         formData,
         handleChange,
