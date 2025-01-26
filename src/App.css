@@ -331,13 +331,13 @@ input{
 .brand-logo {
   height: 50px;
   width: 90px;
-  background: url("./usip.png") no-repeat center;
-  background-size: contain; 
+  background: no-repeat center;
+  background-size: contain;
   background-color: #354152;
   margin: auto;
   padding: 0 20px;
   border-radius: 5%;
-  box-shadow: 0 0 35px black; 
+  box-shadow: 0 0 35px black;
 }
 
 .brand-title {

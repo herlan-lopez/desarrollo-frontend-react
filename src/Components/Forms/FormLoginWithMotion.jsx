@@ -5,7 +5,7 @@ import useForm from "../Hooks/useForm.js";
 import ModalInfo from "../../Components/Modals/ModalInfo";
 import ModalWelcome from "../../Components/Modals/ModalWelcome.jsx";
 import {  initialForm,  setInputsDisabled,} from "../../store/features/form/formSlice";
-
+import usipLogo from "../../assets/usip.png";
 
 // eslint-disable-next-line react/prop-types
 const FormLoginWithMotion = ({ titleForm }) => {
@@ -84,8 +84,8 @@ const FormLoginWithMotion = ({ titleForm }) => {
       />
 
       <div className="container">
-        <div className="brand-logo" />
-
+      <div className="brand-logo" style={{ backgroundImage: `url(${usipLogo})` }}></div>
+        
         <form onSubmit={handleSubmit}>
           <motion.div
             initial={{ x: -100 }}
